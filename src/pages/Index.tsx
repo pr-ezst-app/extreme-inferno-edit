@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import Icon from "@/components/ui/icon";
 
 const SCENES = [
@@ -95,6 +96,7 @@ function ImpactFlash({ trigger }: { trigger: number }) {
 }
 
 export default function Index() {
+  const navigate = useNavigate();
   const [active, setActive] = useState(0);
   const [flash, setFlash] = useState(0);
   const [revealed, setRevealed] = useState(false);
@@ -232,6 +234,13 @@ export default function Index() {
             >
               <Icon name={autoplay ? "Pause" : "Play"} size={14} className="fill-current" />
               {autoplay ? "Pause" : "Play AMV"}
+            </button>
+            <button
+              onClick={() => navigate("/create")}
+              className="flex items-center gap-2 border border-[var(--fire-orange)]/40 text-[var(--fire-orange)] px-5 py-3 font-cinzel text-xs tracking-widest uppercase hover:bg-[var(--fire-orange)]/10 transition-all duration-300"
+            >
+              <Icon name="Zap" size={13} />
+              Create Video
             </button>
             <div className="flex items-center gap-1">
               {SCENES.map((_, i) => (
