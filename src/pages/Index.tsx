@@ -10,7 +10,7 @@ const SCENES = [
     subtitle: "THE DEATH",
     description:
       "The arena lies in ruins. Machines burn. Gadgets shatter. Techno — the brilliant young inventor — collapses. His last breath leaves him standing still in the air for a fraction of a second... then everything falls.",
-    image: "https://cdn.ezst.app/projects/e2331138-62fc-44df-afee-14bb3253c6a7/files/e58ca416-5c50-4ec4-9855-16e1658a08a4.jpg",
+    image: "https://cdn.ezst.app/projects/e2331138-62fc-44df-afee-14bb3253c6a7/files/4c6113d7-1090-424e-8a3a-56a89e9e3ef2.jpg",
     accent: "#1a6aff",
     label: "DEATH",
     labelColor: "#4a9eff",
@@ -23,7 +23,7 @@ const SCENES = [
     subtitle: "THE RAGE",
     description:
       "He screams. The fire won't stay inside anymore. His short red hair whips in the heatwave. The arena floor cracks beneath his feet. Every emotion transforms to flame — uncontrolled, violent, alive.",
-    image: "https://cdn.ezst.app/projects/e2331138-62fc-44df-afee-14bb3253c6a7/files/fe22b90f-4ff1-4c2a-8de4-e395162bb028.jpg",
+    image: "https://cdn.ezst.app/projects/e2331138-62fc-44df-afee-14bb3253c6a7/files/c6ab3d09-75b9-46c2-ad45-5dadf9f3dd6b.jpg",
     accent: "#ff6a1a",
     label: "RAGE",
     labelColor: "#ff9a4a",
@@ -36,7 +36,7 @@ const SCENES = [
     subtitle: "THE INFERNO RISES",
     description:
       "Magma fractures his skin. Wings of pure fire erupt from his back. The arena implodes outward. This is not power — this is grief given a body. The transformation is complete. THE INFERNO exists.",
-    image: "https://cdn.ezst.app/projects/e2331138-62fc-44df-afee-14bb3253c6a7/files/17db02c7-095e-4609-be2c-3f34d5e51468.jpg",
+    image: "https://cdn.ezst.app/projects/e2331138-62fc-44df-afee-14bb3253c6a7/files/12b67cb3-b19c-4b4d-9ecd-5076679007ed.jpg",
     accent: "#ff3300",
     label: "TRANSFORM",
     labelColor: "#ff6633",
@@ -49,7 +49,7 @@ const SCENES = [
     subtitle: "THE INFERNO",
     description:
       "He stands alone. Oceans of fire. Floating debris. Eyes that carry rage and sadness at once. The world around him burns not from hate — but from love that lost its anchor. This is the end. And the beginning.",
-    image: "https://cdn.ezst.app/projects/e2331138-62fc-44df-afee-14bb3253c6a7/files/e2c30023-a78f-487f-bd13-970f1d4d59e5.jpg",
+    image: "https://cdn.ezst.app/projects/e2331138-62fc-44df-afee-14bb3253c6a7/files/8523b0fb-fb61-464f-86aa-0ae955edf987.jpg",
     accent: "#cc0000",
     label: "FINAL FORM",
     labelColor: "#ff2200",
